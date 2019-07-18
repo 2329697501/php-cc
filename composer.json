@@ -1,0 +1,29 @@
+{
+    "name": "vkucukcakar/php-cc",
+    "description": "PHP color converter. RGB-HSV-HSL conversion implemented in PHP.",
+    "type": "library",
+    "homepage": "https://github.com/vkucukcakar/php-cc",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Volkan Kucukcakar",
+            "homepage": "https://github.com/vkucukcakar"
+        }
+    ],
+    "keywords": [
+        "color",
+        "rgb",
+        "hsv",
+        "hsl",
+        "convert"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+	    "psr-4": {
+            "vkucukcakar\\php_cc\\": "php-cc.php"
+        }
+    }
+}
